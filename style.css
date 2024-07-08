@@ -1,0 +1,21 @@
+#container {
+    width: 100%;
+    overflow: hidden;
+    text-align: right;
+
+}
+#text {
+    display: inline-block;
+    text-wrap: nowrap;
+    font-size: 40px;
+    animation: flow 5s linear  infinite;
+
+
+}
+@keyframes flow {
+    from {transform: translateX(30%);}
+    to {transform: translateX(-30%);}
+}
+
+
+
